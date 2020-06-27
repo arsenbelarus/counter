@@ -62,6 +62,8 @@ function App() {
         setDisplay(0)
         setIncDisabled(true)
         setIncClassName("ButtonDisabled")
+        setResetDisabled(true)
+        setResetClassName("ButtonDisabled")
     }
     const setHandler = () => {
         if (defaultNumberDisplay >= 0 && maxNumberDisplay>defaultNumberDisplay) {                       // проверяем на условие об ошибке
