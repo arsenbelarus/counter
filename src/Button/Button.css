@@ -1,0 +1,17 @@
+
+.Button {
+    display: inline;
+    background-color: darkgoldenrod;
+    color: white;
+    width: 30%;
+    height: 40px;
+}
+
+.ButtonDisabled {
+    display: inline;
+    background-color: darkgoldenrod;
+    color: white;
+    width: 30%;
+    height: 40px;
+    opacity: 50%;
+}

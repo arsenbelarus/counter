@@ -1,0 +1,26 @@
+.Display {
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.textareaStart {
+    width: 90%;
+    text-align: center;
+    background-color: #282c34;
+    color: white;
+    font-size: 2em;
+    border-style: none;
+}
+
+.textareaEnd {
+    width: 90%;
+    text-align: center;
+    background-color: #282c34;
+    color: red;
+    font-size: 2em;
+    border-style: none;
+}
