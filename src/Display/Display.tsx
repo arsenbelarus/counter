@@ -7,7 +7,7 @@ export type DisplayPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputEl
 const Display: React.FC<DisplayPropsType> = ({onClick, value, className, ...restProps}) => {
     return (
         <div className="Display">
-            <input value={value} className={className}/>
+            <input value={value} className={className} readOnly={true}/>
         </div>
     );
 }

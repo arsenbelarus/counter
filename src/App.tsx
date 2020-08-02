@@ -1,4 +1,4 @@
-import React, {ChangeEvent, useEffect, useState} from 'react';
+import React, {ChangeEvent, useState} from 'react';
 import './App.css';
 import Display from "./Display/Display";
 import Button from "./Button/Button";
